@@ -3,9 +3,9 @@ import { getMessages } from 'next-intl/server';
 import type { Metadata } from "next";
 // import { Inter, Cairo } from "next/font/google"; // يمكنك تفعيلها إذا كنت تستخدمها
 import "../globals.css";
-
+import Preloader from '@/components/Preloader';
 import Navbar from "@/components/Navbar";
-import Footer from "@/components/Footer"; // استدعاء الفوتّر الاحترافي
+import Footer from "@/components/Footer";
 
 // 1. تعريف الأنواع بشكل صريح ومتوافق مع Next.js 15
 type LayoutProps = {
@@ -28,6 +28,9 @@ export default async function RootLayout({ children, params }: LayoutProps) {
       <body className="selection:bg-blue-600 selection:text-white flex flex-col min-h-screen">
 
         <NextIntlClientProvider messages={messages}>
+
+          {/* شاشة التحميل (أول شيء يظهر) */}
+          <Preloader />
 
           {/* الناف بار الثابت */}
           <Navbar />
