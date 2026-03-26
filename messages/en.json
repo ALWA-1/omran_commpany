@@ -1,0 +1,388 @@
+{
+    "Navbar": {
+        "home": "Home",
+        "services": "Services",
+        "portfolio": "Portfolio",
+        "buildSite": "Build Your Site",
+        "contact": "Contact Us"
+    },
+    "Hero": {
+        "aboutBadge": "About Us",
+        "aboutDescription": "At Omran Tech, we are not just developers; we are your technological partners in developing and creating professional websites and e-commerce stores. Our team includes an elite group of over 20 specialized software engineers. We guarantee secure, reliable, and carefully tested websites, coded entirely from scratch to meet your exact needs, far from ready-made and pre-assembled templates.",
+        "title1": "Your Professional Website",
+        "title2": "Ready in 48 Hours",
+        "startProject": "Start Your Project",
+        "viewPortfolio": "View Our Work",
+        "stat1": " 5 Client Rating",
+        "stat2": " 150+ Sites Launched",
+        "stat3": " 48h Avg Delivery"
+    },
+    "Services": {
+        "badge": "Our Services",
+        "mainTitle": "Everything You Need in One Place",
+        "subtitle": "Three integrated solutions designed to fit every type of project",
+        "learnMore": "Learn More",
+        "previewLink": "Preview Site",
+        "ecommerce": {
+            "card_simple_desc": "Luxury perfumes and cosmetics store.",
+            "title": "E-Commerce Stores",
+            "desc": "A fully integrated store ready to sell your products and receive payments.",
+            "features": [
+                "Easy Dashboard",
+                "Inventory Management",
+                "Online Payment Support",
+                "Sales Reports"
+            ]
+        },
+        "restaurants": {
+            "card_simple_desc": "Digital menu and ordering experience for a seafood restaurant.",
+            "title": "Restaurant Websites",
+            "desc": "Digital menu, table reservations, and an appetizing display of your dishes.",
+            "features": [
+                "Digital Menu",
+                "Online Reservation",
+                "QR Code",
+                "Delivery & Pickup"
+            ]
+        },
+        "corporate": {
+            "card_simple_desc": "Comprehensive corporate website for an engineering consulting firm.",
+            "title": "Corporate Websites",
+            "desc": "A professional digital presence that reflects your company's strength and services.",
+            "features": [
+                "Service Pages",
+                "Contact Forms",
+                "Free SSL",
+                "Visitor Analytics"
+            ]
+        },
+        "drawer": {
+            "close": "Close Window",
+            "impactTitle": "How do we multiply your sales?",
+            "featuresTitle": "Detailed Service Features",
+            "successTitle": "A Real Success Story",
+            "workTitle": "Samples of Our Work",
+            "orderNow": "Order This Service Now",
+            "viewPortfolio": "View Our Portfolio",
+            "details": {
+                "ecommerce": {
+                    "title": "Professional E-Commerce Stores",
+                    "impact": "An e-commerce store is not just a storefront; it's a salesman working 24/7 without stopping. Our statistics show that moving your business online with optimized User Experience (UX) increases sales by up to 120% in the first quarter, by targeting a wider audience and streamlining the checkout process.",
+                    "extendedFeatures": [
+                        "Conversion Rate Optimized (CRO) interface to boost sales",
+                        "Advanced integration with payment gateways (Visa, Mastercard, Mada)",
+                        "Automatic integration with shipping and delivery companies",
+                        "Smart inventory management system that alerts you on low stock",
+                        "Dashboard providing comprehensive analytical reports for your store's performance"
+                    ],
+                    "successName": "Samar Fashion Store",
+                    "successQuote": "After launching our store with Omran Tech, our sales tripled in the first two months, and managing orders and inventory became much easier than before.",
+                    "successResult": "300% Increase in Sales"
+                },
+                "restaurants": {
+                    "title": "Restaurants and Cafes Websites",
+                    "impact": "Customers eat with their eyes first. A professional restaurant website provides an appetizing menu exploration experience and facilitates direct booking and ordering without middlemen or high-commission apps, raising your profit margin by up to 30%.",
+                    "extendedFeatures": [
+                        "Interactive digital menu with high-quality images of dishes",
+                        "Smart table reservation system with automatic customer confirmation",
+                        "Direct delivery and pickup order reception with zero commissions",
+                        "Search Engine Optimization (Local SEO) for your restaurant's visibility on Google",
+                        "Dashboard to manage orders and update menu/prices in seconds"
+                    ],
+                    "successName": "Al-Akeela Restaurant Chain",
+                    "successQuote": "We got rid of the high commissions from delivery apps. Now, over 60% of our orders come directly through our private website designed by Omran Tech.",
+                    "successResult": "Saved 30% on Commissions"
+                },
+                "corporate": {
+                    "title": "Companies and Institutions Websites",
+                    "impact": "Your company's website is its digital headquarters reflecting its size and strength. An institutional website design enhances your credibility with clients and investors, making it easier for them to access your services and contact you, significantly increasing your chances of closing B2B deals.",
+                    "extendedFeatures": [
+                        "Design that luxuriously reflects the company's visual identity",
+                        "Detailed pages for services and previous work (Portfolio)",
+                        "Advanced contact forms to collect potential client leads",
+                        "Website integration with analytical tools (Google Analytics)",
+                        "Highly secure software architecture (SSL) and full responsiveness across all screens"
+                    ],
+                    "successName": "Al-Noor General Contracting",
+                    "successQuote": "The website gave us a professional front for government tenders and major clients. Our digital presence now truly reflects the quality of our on-ground execution.",
+                    "successResult": "Doubled Consultation Requests"
+                }
+            }
+        }
+    },
+    "ServiceDetails": {
+        "tabs": {
+            "ecommerce": "E-Commerce",
+            "restaurants": "Restaurants",
+            "corporate": "Corporate"
+        },
+        "viewWork": "View Previous Work",
+        "ecommerce": {
+            "tag": "Most Requested",
+            "title": "Build Your E-Commerce Store",
+            "desc": "A fully integrated store ready to sell your products and receive payments from day one. Designed to boost your sales and make purchasing easy for your customers.",
+            "features": [
+                "Easy Dashboard",
+                "Inventory Management",
+                "Online Payment Support",
+                "Discount Coupons",
+                "Sales Reports",
+                "Shipping Integration"
+            ],
+            "cta": "Start Your Store",
+            "delivery": "48h",
+            "deliveryLabel": "Delivery Time",
+            "responsive": "100%",
+            "responsiveLabel": "Responsive Design"
+        },
+        "restaurants": {
+            "tag": "Complete Solutions",
+            "title": "Your Website Sells Before They Arrive",
+            "desc": "Offer an unforgettable digital experience to your customers with an interactive menu, direct table reservations, and an online ordering system.",
+            "features": [
+                "Digital Menu",
+                "Dish Galleries",
+                "Local SEO",
+                "Online Booking",
+                "QR Code Menu",
+                "Delivery & Pickup"
+            ],
+            "cta": "Design Your Restaurant Site",
+            "delivery": "48h",
+            "deliveryLabel": "Delivery Time",
+            "responsive": "100%",
+            "responsiveLabel": "Responsive Design"
+        },
+        "corporate": {
+            "tag": "For Companies & Institutions",
+            "title": "A Digital Presence Worthy of Your Company",
+            "desc": "A professional introductory website that highlights your services, showcases your portfolio, and makes it easy for your clients to reach you.",
+            "features": [
+                "Service Pages",
+                "Contact Forms",
+                "Visitor Analytics",
+                "Team Section",
+                "Free SSL",
+                "Blog CMS"
+            ],
+            "cta": "Create Your Corporate Site",
+            "delivery": "48h",
+            "deliveryLabel": "Delivery Time",
+            "responsive": "100%",
+            "responsiveLabel": "Responsive Design"
+        }
+    },
+    "Pricing": {
+        "title": "Clear Pricing.",
+        "subtitle": "No Surprises.",
+        "monthly": "Monthly",
+        "yearly": "Yearly",
+        "save20": "Save 20% with yearly subscription",
+        "tabs": {
+            "ecommerce": "E-Commerce",
+            "restaurants": "Restaurants",
+            "corporate": "Corporate"
+        },
+        "rent": {
+            "title": "Rent",
+            "desc": "Total flexibility, pay monthly",
+            "priceMonthly": "299",
+            "priceYearly": "239",
+            "currency": "EGP/mo",
+            "btn": "Start Renting",
+            "features": [
+                "Free Hosting",
+                "Free Subdomain",
+                "Ongoing Tech Support",
+                "Regular Security Updates",
+                "Full Control Panel"
+            ]
+        },
+        "buy": {
+            "tag": "Most Popular",
+            "title": "Buy",
+            "desc": "Full ownership forever",
+            "price": "3,999",
+            "currency": "EGP (One-time)",
+            "btn": "Buy Now",
+            "features": [
+                "Full Source Code",
+                "3 Months Free Hosting",
+                "3 Months Tech Support",
+                "Domain Transfer",
+                "Full Control Panel",
+                "Payment Gateway Setup"
+            ]
+        },
+        "custom": {
+            "title": "Custom",
+            "desc": "Exclusive design + VIP support",
+            "price": "8,000",
+            "currency": "Starts at (EGP)",
+            "btn": "Book a Consultation",
+            "features": [
+                "Exclusive UI/UX Design",
+                "Custom Software Development",
+                "Regular Planning Meetings",
+                "Dedicated Account Manager",
+                "External Systems API Integration"
+            ]
+        }
+    },
+    "Portfolio": {
+        "title": "Our Work Speaks for Us",
+        "subtitle": "150+ Sites Launched",
+        "desc": "For clients in Egypt and the Arab World",
+        "filters": {
+            "all": "All",
+            "ecommerce": "E-Commerce",
+            "restaurants": "Restaurants",
+            "corporate": "Corporate"
+        },
+        "CTA": {
+            "title": "Ready to turn your idea into a stunning digital reality?",
+            "desc": "Join our list of successful partners and start your journey towards digital excellence today."
+        },
+        "modal": {
+            "aboutProject": "About The Project",
+            "techStack": "Technologies Used",
+            "visitLink": "Visit Live Site",
+            "buildSite": "Build Your Site Now"
+        },
+        "projects": {
+            "p1": {
+                "title": "Samar Store",
+                "desc": "A fully integrated e-commerce store with a secure payment system and smart shopping cart."
+            },
+            "p2": {
+                "title": "Elegance Hub",
+                "desc": "A fashion and clothing retail platform with order tracking and inventory management."
+            },
+            "p3": {
+                "title": "Tech Store",
+                "desc": "A store specialized in selling electronics featuring an advanced sales dashboard."
+            },
+            "p4": {
+                "title": "Al-Akeela Dining",
+                "desc": "An interactive restaurant website offering a smart digital menu experience, advance table booking, and delivery order reception."
+            },
+            "p5": {
+                "title": "Cafe & Cupcake",
+                "desc": "An online ordering platform for bakery goods and coffee with an appetizing design."
+            },
+            "p6": {
+                "title": "Chef's Kitchen",
+                "desc": "A fast-food website supporting branch pickup and delivery tracking."
+            },
+            "p7": {
+                "title": "Modern Build Co.",
+                "desc": "A corporate website for a contracting firm showcasing their portfolio and services professionally."
+            },
+            "p8": {
+                "title": "Pioneers Consulting",
+                "desc": "A platform for a financial consulting firm allowing clients to book advisory appointments online."
+            },
+            "p9": {
+                "title": "Digital Creative Agency",
+                "desc": "A marketing agency website displaying packages and services with an advanced inquiry form."
+            }
+        }
+    },
+    "Contact": {
+        "badge": "Contact Us",
+        "title": "Ready to turn your idea into reality?",
+        "desc": "Our team of engineers and experts is ready to build your next digital project. Leave your details and we will contact you within hours.",
+        "info": {
+            "email": "Email Address",
+            "emailValue": "hello@omrantech.com",
+            "phone": "Phone Number",
+            "phoneValue": "+20 100 000 0000",
+            "address": "Headquarters",
+            "addressValue": "Cairo, Arab Republic of Egypt"
+        },
+        "form": {
+            "name": "Full Name",
+            "whatsapp": "WhatsApp Number",
+            "service": "Required Service Type",
+            "services": {
+                "ecommerce": "E-Commerce Store",
+                "restaurant": "Restaurant Website",
+                "corporate": "Corporate Website",
+                "custom": "Custom Development"
+            },
+            "message": "Your Message (Optional)",
+            "submit": "Submit Your Request Now"
+        },
+        "footer": {
+            "copyright": "© 2026 Omran Tech. All rights reserved.",
+            "privacy": "Privacy Policy",
+            "terms": "Terms of Use"
+        }
+    },
+    "OrderForm": {
+        "title": "Build Your Project With Us",
+        "subtitle": "Answer a few simple questions so we can determine the best solution for you and start working immediately.",
+        "step1": "1. What type of project do you want?",
+        "types": {
+            "ecommerce": "E-Commerce Store",
+            "restaurant": "Restaurant Website",
+            "corporate": "Corporate Website",
+            "other": "Other (Different Idea)"
+        },
+        "customProject": {
+            "nameLabel": "Project Name",
+            "namePlaceholder": "Example: Educational Platform",
+            "descLabel": "Idea Description",
+            "descPlaceholder": "Briefly explain your idea to us..."
+        },
+        "step2": "2. Do you need a Control Panel (Dashboard)?",
+        "dashboard": {
+            "yes": "Yes, I want a full dashboard to manage content",
+            "no": "No, just a static introductory website"
+        },
+        "step3": "3. How do you prefer the contract model?",
+        "contract": {
+            "buy": "Purchase Source Code",
+            "buyDesc": "Pay once, and own the code entirely forever.",
+            "rent": "Rent (Hosting & Maintenance on us)",
+            "rentDesc": "We manage hosting and updates for a monthly/yearly subscription."
+        },
+        "submit": "Send Request via WhatsApp",
+        "modal": {
+            "title": "One simple final step!",
+            "nameLabel": "Your Name",
+            "namePlaceholder": "Enter your name here...",
+            "countryLabel": "Country",
+            "countryPlaceholder": "Select your country...",
+            "countries": {
+                "sa": "Saudi Arabia",
+                "ae": "United Arab Emirates",
+                "eg": "Egypt",
+                "kw": "Kuwait",
+                "qa": "Qatar",
+                "bh": "Bahrain",
+                "om": "Oman",
+                "jo": "Jordan",
+                "other": "Other Country"
+            },
+            "finalSubmit": "Confirm & Send",
+            "close": "Cancel"
+        }
+    },
+    "ContactModal": {
+        "title": "Contact Us",
+        "subtitle": "We are here to help, contact us immediately through the following channels:",
+        "close": "Close"
+    },
+    "Footer": {
+        "desc": "At Omran Tech, we don't just design websites; we build comprehensive digital experiences that multiply your profits and enhance your digital presence in the market.",
+        "quickLinks": "Quick Links",
+        "ourServices": "Top Services",
+        "contact": "Contact Us Directly",
+        "rights": "All rights reserved © {year} Omran Tech.",
+        "location": "Cairo, Arab Republic of Egypt",
+        "email": "Email Us",
+        "whatsapp": "Chat on WhatsApp",
+        "facebook": "Our Facebook Page"
+    }
+}
