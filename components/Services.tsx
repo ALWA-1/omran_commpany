@@ -133,8 +133,6 @@ export default function Services({ locale }: { locale: string }) {
                     {servicesData.map((service) => (
                         <motion.div variants={cardVariants} key={service.key} className="group bg-white rounded-[2rem] border border-gray-100 shadow-sm hover:shadow-2xl hover:shadow-blue-900/5 transition-all duration-500 flex flex-col h-full transform hover:-translate-y-2 overflow-hidden">
 
-                            {/* --- التعديل هنا: تم حذف الديف الخاص بالنص والزر بالكامل لتكون الصورة في الأعلى مباشرة --- */}
-
                             <div className="relative w-full h-56 overflow-hidden">
                                 <img
                                     src={service.imageSrc}
@@ -182,11 +180,15 @@ export default function Services({ locale }: { locale: string }) {
                             <h3 className="text-2xl md:text-3xl font-extrabold text-gray-900">
                                 {t(`drawer.details.${activeService}.title`)}
                             </h3>
+
+                            {/* التعديل هنا: زر إغلاق فاتح مع أيقونة سوداء بالكامل */}
                             <button
                                 onClick={() => setActiveService(null)}
-                                className="w-10 h-10 bg-gray-100 hover:bg-red-50 hover:text-red-600 rounded-full flex items-center justify-center transition-colors focus:outline-none shrink-0"
+                                className="w-10 h-10 bg-gray-100 text-black hover:bg-gray-200 rounded-full flex items-center justify-center transition-colors focus:outline-none shrink-0"
                             >
-                                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M6 18L18 6M6 6l12 12"></path></svg>
+                                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" d="M6 18L18 6M6 6l12 12"></path>
+                                </svg>
                             </button>
                         </div>
 
@@ -246,8 +248,6 @@ export default function Services({ locale }: { locale: string }) {
                                     {t('drawer.orderNow')}
                                 </Link>
                                 <Link
-
-                                    // التعديل هنا: توجيه للصفحة الرئيسية مع إضافة hash للنزول لقسم الأعمال
                                     href={{ pathname: `/${locale}`, hash: 'portfolio' } as any}
                                     onClick={() => setActiveService(null)}
                                     className="flex-1 w-full text-center py-4 px-8 bg-blue-50 text-blue-700 border border-blue-200 rounded-xl font-bold text-lg hover:bg-blue-100 hover:text-blue-800 transition-colors"
