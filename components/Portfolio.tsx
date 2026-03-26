@@ -78,7 +78,7 @@ const projectsData = [
         id: 'p8', category: 'corporate', techStack: ['React', 'Redux', 'AWS'],
         link: 'https://example.com/corp2',
         images: [
-            { url: 'https://images.unsplash.com/photo-1556761175-5973dc0f32d7?w=800', captionAr: 'منصة الاستشارات المالية', captionEn: 'Financial Consulting Platform' },
+            { url: 'https://images.unsplash.com/photo-1542744173-8e7e53415bb0?w=800', captionAr: 'منصة الاستشارات المالية', captionEn: 'Financial Consulting Platform' },
             { url: 'https://images.unsplash.com/photo-1556761175-4b46a572b786?w=800', captionAr: 'نظام حجز المواعيد أونلاين', captionEn: 'Online Appointment Booking System' },
             { url: 'https://images.unsplash.com/photo-1542744173-8e7e53415bb0?w=800', captionAr: 'لوحة تحكم العملاء', captionEn: 'Clients Dashboard' }
         ]
@@ -131,8 +131,6 @@ export default function Portfolio() {
     };
 
     // --- تجهيز النصوص للأنيميشن المتسلسل (CTA) ---
-    // تأكد من وجود هذه النصوص في ملف JSON الخاص بك 
-    // مثلاً: "CTA": { "title": "مستعد لتحويل فكرتك إلى واقع رقمي مبهر؟", "desc": "انضم إلى قائمة شركاء نجاحنا وابدأ رحلتك نحو التميز الرقمي اليوم." }
     const ctaTitleText = t('CTA.title');
     const ctaTitleWords = ctaTitleText.split(" ");
     const ctaDescText = t('CTA.desc');
@@ -151,7 +149,6 @@ export default function Portfolio() {
         visible: { opacity: 1, y: 0, transition: { duration: 0.5, ease: "easeOut" } }
     };
 
-    // التعديل هنا: إضافة الـ Fragment (<>) في البداية لتجميع السكشنين
     return (
         <>
             <section className="py-24 bg-gray-50" id="portfolio">
@@ -257,14 +254,16 @@ export default function Portfolio() {
                                     <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M6 18L18 6M6 6l12 12"></path></svg>
                                 </button>
 
+                                {/* الحل السحري الجذري: حولناها لـ Grid لضمان عمل السكرول بقوة */}
                                 <motion.div
                                     variants={modalContentVariants}
                                     initial="hidden"
                                     animate="visible"
-                                    className="flex flex-col md:flex-row w-full flex-1 min-h-0 overflow-y-auto md:overflow-y-hidden"
+                                    className="w-full flex-1 min-h-0 overflow-y-auto md:overflow-hidden grid grid-cols-1 md:grid-cols-3"
                                 >
 
-                                    <div className="w-full md:w-1/3 p-6 pt-16 md:p-12 md:pt-12 border-b md:border-b-0 md:border-l border-gray-100 flex flex-col overflow-visible md:overflow-y-auto h-auto md:h-full">
+                                    {/* عمود النص: يأخذ مساحة ثلث الشاشة تقريباً ومسموح له بالسكرول وحده */}
+                                    <div className="md:col-span-1 p-6 pt-16 md:p-10 border-b md:border-b-0 md:border-l border-gray-100 flex flex-col md:overflow-y-auto md:min-h-0">
                                         <motion.span variants={modalItemVariants} className="text-sm font-bold text-gray-500 mb-2 block">{t(`filters.${selectedProject.category}`)}</motion.span>
 
                                         <motion.div variants={modalItemVariants} className="flex flex-col xl:flex-row xl:items-start justify-between gap-4 mb-8">
@@ -301,7 +300,8 @@ export default function Portfolio() {
                                         </motion.div>
                                     </div>
 
-                                    <div className="w-full md:w-2/3 bg-gray-50 p-6 md:p-10 flex flex-col gap-10 overflow-visible md:overflow-y-auto h-auto md:h-full">
+                                    {/* عمود الصور: يأخذ مساحة الثلثين ومسموح له بالسكرول باستقلالية تامة */}
+                                    <div className="md:col-span-2 bg-gray-50 p-6 md:p-10 flex flex-col gap-8 md:overflow-y-auto md:min-h-0">
                                         {selectedProject.images.map((imgObj, idx) => (
                                             <motion.div variants={modalItemVariants} key={idx} className="flex flex-col gap-4">
                                                 <div className="rounded-2xl overflow-hidden border border-gray-200 shadow-sm bg-white">
@@ -327,7 +327,7 @@ export default function Portfolio() {
             </section>
 
             {/* ========================================================================= */}
-            {/* سكشن الـ CTA الجديد - التصميم الاحترافي الهادئ مع أنيميشن متسلسل */}
+            {/* سكشن الـ CTA الجديد */}
             {/* ========================================================================= */}
             <section className="py-24 bg-white border-t border-gray-100 overflow-hidden">
                 <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center flex flex-col items-center">
@@ -368,8 +368,7 @@ export default function Portfolio() {
                                 </span>
                             ))}
                         </motion.p>
-
-                        {/* ظهور الأزرار بالألوان الاحترافية (أسود وشفاف) */}
+                        {/* ظهور الأزرار بالألوان الاحترافية */}
                         <motion.div
                             variants={{
                                 hidden: { opacity: 0, y: 20 },
@@ -381,14 +380,16 @@ export default function Portfolio() {
                                 href={{ pathname: `/${locale}/order` } as any}
                                 className="w-full sm:w-auto text-center px-10 py-4 bg-black text-white rounded-xl font-bold text-lg hover:bg-gray-800 transition-colors shadow-md transform hover:-translate-y-1"
                             >
-                                أنشئ موقعك الآن
+                                أنشئ موقعك الآن 🚀
                             </Link>
-                            <Link
-                                href={{ pathname: `/${locale}`, hash: 'contact' } as any}
-                                className="w-full sm:w-auto text-center px-10 py-4 bg-transparent border-2 border-black text-black rounded-xl font-bold text-lg hover:bg-black hover:text-white transition-all transform hover:-translate-y-1"
+
+                            {/* التعديل السحري هنا: حولناه لزر يرسل الإشارة اللاسلكية */}
+                            <button
+                                onClick={() => window.dispatchEvent(new Event('openContactModal'))}
+                                className="w-full sm:w-auto text-center px-10 py-4 bg-transparent border-2 border-black text-black rounded-xl font-bold text-lg hover:bg-black hover:text-white transition-all transform hover:-translate-y-1 cursor-pointer"
                             >
                                 تواصل معنا للتفاصيل
-                            </Link>
+                            </button>
                         </motion.div>
 
                     </motion.div>
