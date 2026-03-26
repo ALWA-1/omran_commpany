@@ -251,7 +251,7 @@
         },
         "projects": {
             "p1": {
-                "title": "Samar Store",
+                "title": "ALSAFA Store",
                 "desc": "A fully integrated e-commerce store with a secure payment system and smart shopping cart."
             },
             "p2": {
@@ -263,15 +263,15 @@
                 "desc": "A store specialized in selling electronics featuring an advanced sales dashboard."
             },
             "p4": {
-                "title": "Al-Akeela Dining",
+                "title": "Breshta Restaurants",
                 "desc": "An interactive restaurant website offering a smart digital menu experience, advance table booking, and delivery order reception."
             },
             "p5": {
-                "title": "Cafe & Cupcake",
+                "title": "Tiland  Restaurants",
                 "desc": "An online ordering platform for bakery goods and coffee with an appetizing design."
             },
             "p6": {
-                "title": "Chef's Kitchen",
+                "title": "COSTA Cafe",
                 "desc": "A fast-food website supporting branch pickup and delivery tracking."
             },
             "p7": {
