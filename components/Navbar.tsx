@@ -9,9 +9,9 @@ import LanguageToggle from './LanguageToggle';
 export default function Navbar() {
     const t = useTranslations('Navbar');
     const tm = useTranslations('ContactModal');
-    
+
     // 3. جلب اللغة الحالية برمجياً
-    const locale = useLocale(); 
+    const locale = useLocale();
 
     const [isContactModalOpen, setIsContactModalOpen] = useState(false);
     const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -21,6 +21,32 @@ export default function Navbar() {
         else document.body.style.overflow = 'unset';
         return () => { document.body.style.overflow = 'unset'; };
     }, [isContactModalOpen, isMobileMenuOpen]);
+
+    // ========================================================
+    // الكود الجديد: الاستماع للرابط لفتح المودال من أي مكان بالموقع
+    // ========================================================
+    // الاستماع للإشارة اللاسلكية (Custom Event) لفتح النافذة
+    // ========================================================
+    useEffect(() => {
+        // 1. دالة التقاط الإشارة لفتح النافذة
+        const handleOpenModal = () => setIsContactModalOpen(true);
+
+        // 2. الاستماع للإشارة
+        window.addEventListener('openContactModal', handleOpenModal);
+
+        // (اختياري) لو حد دخل من رابط مباشر آخره #contact
+        const checkHash = () => {
+            if (window.location.hash === '#contact') {
+                setIsContactModalOpen(true);
+                window.history.replaceState(null, '', window.location.pathname);
+            }
+        };
+        checkHash();
+
+        return () => {
+            window.removeEventListener('openContactModal', handleOpenModal);
+        };
+    }, []);
 
     return (
         <>
