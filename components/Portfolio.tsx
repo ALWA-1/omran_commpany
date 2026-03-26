@@ -380,7 +380,7 @@ export default function Portfolio() {
                                 href={{ pathname: `/${locale}/order` } as any}
                                 className="w-full sm:w-auto text-center px-10 py-4 bg-black text-white rounded-xl font-bold text-lg hover:bg-gray-800 transition-colors shadow-md transform hover:-translate-y-1"
                             >
-                                أنشئ موقعك الآن 🚀
+                                أنشئ موقعك الآن 
                             </Link>
 
                             {/* التعديل السحري هنا: حولناه لزر يرسل الإشارة اللاسلكية */}
