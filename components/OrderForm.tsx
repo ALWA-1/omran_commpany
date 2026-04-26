@@ -33,7 +33,7 @@ export default function OrderForm({ locale }: { locale: string }) {
     }, [isModalOpen]);
 
     // رقم الواتساب الخاص بك (قم بتغييره)
-    const whatsappNumber = "95655237906";
+    const whatsappNumber = "96555237906";
 
     // دالة الإرسال النهائي
     const handleFinalSubmit = () => {
