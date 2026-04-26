@@ -67,29 +67,29 @@ const projectsData = [
     },
     {
         id: 'p7', category: 'corporate', techStack: ['Next.js', 'TypeScript', 'Prisma'],
-        link: 'https://example.com/corp1',
+        link: 'https://ibtkarre.com/',
         images: [
-            { url: '/images/r2.png', captionAr: 'الصفحة التعريفية للشركة', captionEn: 'Company Landing Page' },
-            { url: '/images/r2.png', captionAr: 'معرض سابقة الأعمال', captionEn: 'Portfolio and Previous Work' },
-            { url: '/images/r2.png', captionAr: 'نموذج طلب عرض سعر مخصص', captionEn: 'Custom Quote Request Form' }
+            { url: '/images/o11.png', captionAr: 'الصفحة الرئيسة  للشركة', captionEn: 'Company Landing Page' },
+            { url: '/images/o12.png', captionAr: 'معرض  الأعمال', captionEn: 'Portfolio and Previous Work' },
+            { url: '/images/o13.png', captionAr: 'صفحه التواصل', captionEn: 'Custom Quote Request Form' }
         ]
     },
     {
         id: 'p8', category: 'corporate', techStack: ['React', 'Redux', 'AWS'],
-        link: 'https://example.com/corp2',
+        link: 'https://tourtk-app.vercel.app/',
         images: [
-            { url: '/images/r2.png', captionAr: 'منصة الاستشارات المالية', captionEn: 'Financial Consulting Platform' },
-            { url: '/images/r2.png', captionAr: 'نظام حجز المواعيد أونلاين', captionEn: 'Online Appointment Booking System' },
-            { url: '/images/r2.png', captionAr: 'لوحة تحكم العملاء', captionEn: 'Clients Dashboard' }
+            { url: '/images/p11.png', captionAr: 'الصفحه الرئيسيه للموقع ', captionEn: 'Financial Consulting Platform' },
+            { url: '/images/p12.png', captionAr: 'صفحه البقاات وشراء البقات المتاحه ', captionEn: 'Online Appointment Booking System' },
+            { url: '/images/p13.png', captionAr: 'لوحة تحكم الاداره', captionEn: 'Clients Dashboard' }
         ]
     },
     {
         id: 'p9', category: 'corporate', techStack: ['WordPress', 'Custom Theme'],
-        link: 'https://example.com/corp3',
+        link: 'https://sar.sarpemium.com/#reviews',
         images: [
-            { url: '/images/r2.png', captionAr: 'موقع وكالة التسويق الرقمي', captionEn: 'Digital Marketing Agency Site' },
-            { url: '/images/r2.png', captionAr: 'عرض الباقات والخدمات', captionEn: 'Packages and Services Display' },
-            { url: '/images/r2.png', captionAr: 'نظام إدارة المحتوى (المدونة)', captionEn: 'Content Management System (Blog)' }
+            { url: '/images/z11.png', captionAr: 'الصفحة الرئيسيه ', captionEn: 'Digital Marketing Agency Site' },
+            { url: '/images/z12.png', captionAr: 'صفحة الباقات', captionEn: 'Packages and Services Display' },
+            { url: '/images/z13.png', captionAr: 'صفحه التواصل', captionEn: 'Content Management System (Blog)' }
         ]
     }
 ];
