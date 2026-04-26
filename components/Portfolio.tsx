@@ -85,7 +85,7 @@ const projectsData = [
     },
     {
         id: 'p9', category: 'corporate', techStack: ['WordPress', 'Custom Theme'],
-        link: 'https://sar.sarpemium.com/#reviews',
+        link: 'https://sar.sarpemium.com/',
         images: [
             { url: '/images/z11.png', captionAr: 'الصفحة الرئيسيه ', captionEn: 'Digital Marketing Agency Site' },
             { url: '/images/z12.png', captionAr: 'صفحة الباقات', captionEn: 'Packages and Services Display' },
