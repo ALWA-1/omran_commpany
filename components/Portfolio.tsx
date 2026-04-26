@@ -22,20 +22,20 @@ const projectsData = [
     },
     {
         id: 'p2', category: 'ecommerce', techStack: ['Next.js', 'Tailwind', 'Stripe'],
-        link: 'https://example.com/store2',
+        link: 'https://omran-menu.vercel.app/',
         images: [
-            { url: 'https://images.unsplash.com/photo-1441986300917-64674bd600d8?w=800', captionAr: 'الواجهة الرئيسية للمتجر', captionEn: 'Main Store Interface' },
-            { url: 'https://images.unsplash.com/photo-1441984904996-e0b6ba687e04?w=800', captionAr: 'تصنيف المنتجات الذكي', captionEn: 'Smart Product Categorization' },
-            { url: 'https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=800', captionAr: 'لوحة تحكم إدارة المبيعات', captionEn: 'Sales Management Dashboard' }
+            { url: '/images/gg2.png', captionAr: 'الواجهة الرئيسية للمتجر', captionEn: 'Main Store Interface' },
+            { url: '/images/gg1.png', captionAr: 'تصنيف المنتجات الذكي', captionEn: 'Smart Product Categorization' },
+            { url: '/images/gg3.png', captionAr: 'لوحة تحكم إدارة المبيعات', captionEn: 'Sales Management Dashboard' }
         ]
     },
     {
         id: 'p3', category: 'ecommerce', techStack: ['Vue.js', 'Firebase', 'Express'],
-        link: 'https://example.com/store3',
+        link: 'https://alrouha.netlify.app/',
         images: [
-            { url: 'https://images.unsplash.com/photo-1472851294608-062f824d29cc?w=800', captionAr: 'شاشة العروض والخصومات', captionEn: 'Offers and Discounts Screen' },
-            { url: 'https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=800', captionAr: 'نظام البحث المتقدم', captionEn: 'Advanced Search System' },
-            { url: 'https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=800', captionAr: 'تتبع حالة الطلب للعميل', captionEn: 'Order Status Tracking' }
+            { url: '/images/k12.png', captionAr: 'صفحة الموقع  الرئيسيه', captionEn: 'Offers and Discounts Screen' },
+            { url: '/images/k13.png', captionAr: 'عرض الاقسام بشكل جذاب', captionEn: 'Advanced Search System' },
+            { url: '/images/k11.png', captionAr: 'صفحه لوحه التحكم ', captionEn: 'Order Status Tracking' }
         ]
     },
     {
@@ -69,27 +69,27 @@ const projectsData = [
         id: 'p7', category: 'corporate', techStack: ['Next.js', 'TypeScript', 'Prisma'],
         link: 'https://example.com/corp1',
         images: [
-            { url: 'https://images.unsplash.com/photo-1497366216548-37526070297c?w=800', captionAr: 'الصفحة التعريفية للشركة', captionEn: 'Company Landing Page' },
-            { url: 'https://images.unsplash.com/photo-1497366754035-f200968a6e72?w=800', captionAr: 'معرض سابقة الأعمال', captionEn: 'Portfolio and Previous Work' },
-            { url: 'https://images.unsplash.com/photo-1497366811353-6870744d04b2?w=800', captionAr: 'نموذج طلب عرض سعر مخصص', captionEn: 'Custom Quote Request Form' }
+            { url: '/images/r2.png', captionAr: 'الصفحة التعريفية للشركة', captionEn: 'Company Landing Page' },
+            { url: '/images/r2.png', captionAr: 'معرض سابقة الأعمال', captionEn: 'Portfolio and Previous Work' },
+            { url: '/images/r2.png', captionAr: 'نموذج طلب عرض سعر مخصص', captionEn: 'Custom Quote Request Form' }
         ]
     },
     {
         id: 'p8', category: 'corporate', techStack: ['React', 'Redux', 'AWS'],
         link: 'https://example.com/corp2',
         images: [
-            { url: 'https://images.unsplash.com/photo-1542744173-8e7e53415bb0?w=800', captionAr: 'منصة الاستشارات المالية', captionEn: 'Financial Consulting Platform' },
-            { url: 'https://images.unsplash.com/photo-1556761175-4b46a572b786?w=800', captionAr: 'نظام حجز المواعيد أونلاين', captionEn: 'Online Appointment Booking System' },
-            { url: 'https://images.unsplash.com/photo-1542744173-8e7e53415bb0?w=800', captionAr: 'لوحة تحكم العملاء', captionEn: 'Clients Dashboard' }
+            { url: '/images/r2.png', captionAr: 'منصة الاستشارات المالية', captionEn: 'Financial Consulting Platform' },
+            { url: '/images/r2.png', captionAr: 'نظام حجز المواعيد أونلاين', captionEn: 'Online Appointment Booking System' },
+            { url: '/images/r2.png', captionAr: 'لوحة تحكم العملاء', captionEn: 'Clients Dashboard' }
         ]
     },
     {
         id: 'p9', category: 'corporate', techStack: ['WordPress', 'Custom Theme'],
         link: 'https://example.com/corp3',
         images: [
-            { url: 'https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=800', captionAr: 'موقع وكالة التسويق الرقمي', captionEn: 'Digital Marketing Agency Site' },
-            { url: 'https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=800', captionAr: 'عرض الباقات والخدمات', captionEn: 'Packages and Services Display' },
-            { url: 'https://images.unsplash.com/photo-1531482615713-2afd69097998?w=800', captionAr: 'نظام إدارة المحتوى (المدونة)', captionEn: 'Content Management System (Blog)' }
+            { url: '/images/r2.png', captionAr: 'موقع وكالة التسويق الرقمي', captionEn: 'Digital Marketing Agency Site' },
+            { url: '/images/r2.png', captionAr: 'عرض الباقات والخدمات', captionEn: 'Packages and Services Display' },
+            { url: '/images/r2.png', captionAr: 'نظام إدارة المحتوى (المدونة)', captionEn: 'Content Management System (Blog)' }
         ]
     }
 ];
