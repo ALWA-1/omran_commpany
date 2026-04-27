@@ -55,7 +55,7 @@ export default function OrderForm({ locale }: { locale: string }) {
         }
 
         message += `📊 *لوحة التحكم:* ${dashboard === 'yes' ? 'نعم مطلوب' : 'غير مطلوب'}%0a`;
-        message += `🤝 *نظام التعاقد:* ${contract === 'buy' ? 'شراء الكود المصدري' : 'إيجار (شامل الاستضافة)'}`;
+        message += `🤝 *نظام التعاقد:* ${contract === 'buy' ? 'شراء الموقع' : 'إيجار (شامل الاستضافة)'}`;
 
         // فتح واتساب وإغلاق النافذة
         window.open(`https://wa.me/${whatsappNumber}?text=${message}`, '_blank');
