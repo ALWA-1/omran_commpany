@@ -126,10 +126,10 @@ export default function Navbar() {
 
                         <div className="flex flex-col gap-4">
                             <a href="tel:+201000000000" className="flex items-center justify-center gap-3 p-4 rounded-xl bg-gray-50 hover:bg-gray-100 transition-colors border border-gray-200">
-                                <span className="text-lg font-bold text-gray-800" dir="ltr">+96555237906</span>
+                                <span className="text-lg font-bold text-gray-800" dir="ltr">96555237906</span>
                             </a>
                             <a href="mailto:hello@omrantech.com" className="flex items-center justify-center gap-3 p-4 rounded-xl bg-gray-50 hover:bg-gray-100 transition-colors border border-gray-200">
-                                <span className="text-lg font-bold text-gray-800">hello@omrantech.com</span>
+                                <span className="text-lg font-bold text-gray-800">omrantech.com@gmail.com</span>
                             </a>
                             <a href="https://facebook.com" target="_blank" rel="noreferrer" className="flex items-center justify-center gap-3 p-4 rounded-xl bg-gray-50 hover:bg-gray-100 transition-colors border border-gray-200">
                                 <span className="text-lg font-bold text-gray-800">صفحتنا على فيسبوك</span>
