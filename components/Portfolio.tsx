@@ -13,7 +13,7 @@ type Category = 'all' | 'ecommerce' | 'restaurants' | 'corporate';
 const projectsData = [
     {
         id: 'p1', category: 'ecommerce', techStack: ['React', 'Node.js', 'MongoDB'],
-        link: 'https://alsafa-store.netlify.app/',
+        link: 'https://alsafa-store.vercel.app/',
         images: [
             { url: '/images/alsafahome.png', captionAr: 'تصميم الواجهة الرئيسية الجذاب', captionEn: 'Attractive Main Interface Design' },
             { url: '/images/al2.png', captionAr: 'صفحة عرض المنتجات وتفاصيلها', captionEn: 'Products Display and Details Page' },
