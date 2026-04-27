@@ -91,8 +91,8 @@ export default function Footer() {
                             <ul className="space-y-4 font-medium text-sm md:text-base">
                                 <li><Link href={{ pathname: `/${locale}`, hash: 'services' } as any} className="text-gray-400 hover:text-white hover:translate-x-1 rtl:hover:-translate-x-1 inline-block transition-all">تصميم المتاجر</Link></li>
                                 <li><Link href={{ pathname: `/${locale}`, hash: 'services' } as any} className="text-gray-400 hover:text-white hover:translate-x-1 rtl:hover:-translate-x-1 inline-block transition-all">مواقع الشركات</Link></li>
-                                <li><Link href={{ pathname: `/${locale}`, hash: 'services' } as any} className="text-gray-400 hover:text-white hover:translate-x-1 rtl:hover:-translate-x-1 inline-block transition-all">منيو المطاعم</Link></li>
-                                <li><Link href={{ pathname: `/${locale}/order` } as any} className="text-gray-400 hover:text-white hover:translate-x-1 rtl:hover:-translate-x-1 inline-block transition-all">برمجة خاصة</Link></li>
+                                <li><Link href={{ pathname: `/${locale}`, hash: 'services' } as any} className="text-gray-400 hover:text-white hover:translate-x-1 rtl:hover:-translate-x-1 inline-block transition-all">مواقع المطاعم</Link></li>
+                                <li><Link href={{ pathname: `/${locale}/order` } as any} className="text-gray-400 hover:text-white hover:translate-x-1 rtl:hover:-translate-x-1 inline-block transition-all"> برمجة خاصة</Link></li>
                             </ul>
                         </div>
                     </motion.div>
@@ -106,13 +106,13 @@ export default function Footer() {
 
                         <div className="flex flex-col gap-3">
                             {/* بطاقة واتساب */}
-                            <a href="https://wa.me/201000000000" target="_blank" rel="noreferrer" className="flex items-center gap-4 p-4 rounded-2xl bg-white/5 border border-white/5 hover:bg-white/10 hover:border-white/10 transition-all duration-300 group">
+                            <a href="https://wa.me/96555237906⁩" target="_blank" rel="noreferrer" className="flex items-center gap-4 p-4 rounded-2xl bg-white/5 border border-white/5 hover:bg-white/10 hover:border-white/10 transition-all duration-300 group">
                                 <div className="w-12 h-12 rounded-xl bg-gray-800/80 flex items-center justify-center group-hover:bg-[#25D366] transition-colors duration-300 shadow-sm shrink-0">
                                     <svg className="w-6 h-6 text-gray-300 group-hover:text-white transition-colors duration-300" fill="currentColor" viewBox="0 0 24 24"><path d="M12.031 0C5.385 0 0 5.385 0 12.031c0 2.122.553 4.195 1.603 6.014L.266 23.439l5.539-1.452a11.968 11.968 0 006.226 1.734c6.645 0 12.03-5.385 12.03-12.03S18.676 0 12.031 0zm6.656 17.203c-.282.795-1.636 1.543-2.257 1.636-.583.087-1.334.128-3.79-.893-2.955-1.228-4.846-4.25-4.994-4.445-.148-.195-1.192-1.587-1.192-3.023 0-1.437.747-2.146 1.018-2.427.271-.282.593-.353.79-.353.197 0 .393.003.565.01.182.008.427-.071.65.467.234.565.795 1.944.867 2.088.071.144.118.315.02.505-.1.19-.148.307-.295.478-.147.171-.31.365-.443.488-.147.135-.304.286-.138.574.166.288.74 1.225 1.595 1.986 1.103.98 2.028 1.282 2.316 1.417.288.135.457.113.626-.08.17-.193.73-8.852.925-1.143.196-.291.392-.243.655-.145.263.098 1.666.786 1.95 9.27.284.144.475.234.542.364.067.13.067.755-.215 1.55z" /></svg>
                                 </div>
                                 <div className="flex flex-col">
                                     <span className="text-xs text-gray-500 font-bold tracking-wide uppercase mb-0.5">{t('Footer.whatsapp')}</span>
-                                    <span className="text-gray-200 font-bold group-hover:text-white transition-colors duration-300" dir="ltr">+20 100 000 0000</span>
+                                    <span className="text-gray-200 font-bold group-hover:text-white transition-colors duration-300" dir="ltr">+96555237906⁩</span>
                                 </div>
                             </a>
 
@@ -123,7 +123,7 @@ export default function Footer() {
                                 </div>
                                 <div className="flex flex-col">
                                     <span className="text-xs text-gray-500 font-bold tracking-wide uppercase mb-0.5">{t('Footer.email')}</span>
-                                    <span className="text-gray-200 font-bold group-hover:text-white transition-colors duration-300">hello@omrantech.com</span>
+                                    <span className="text-gray-200 font-bold group-hover:text-white transition-colors duration-300">omrantech@gmail.com</span>
                                 </div>
                             </a>
 
@@ -134,7 +134,7 @@ export default function Footer() {
                                 </div>
                                 <div className="flex flex-col">
                                     <span className="text-xs text-gray-500 font-bold tracking-wide uppercase mb-0.5">{t('Footer.location')}</span>
-                                    <span className="text-gray-200 font-bold">القاهرة، مصر</span>
+                                    <span className="text-gray-200 font-bold">الكويت، الكويت</span>
                                 </div>
                             </div>
                         </div>
